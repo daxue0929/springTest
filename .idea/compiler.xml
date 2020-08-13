@@ -2,21 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="boot-shiro (1)" />
-        <module name="boot-shiro" />
-        <module name="learn-aop" />
+        <module name="boot-jpa" />
         <module name="springTest" />
+        <module name="boot-shiro" />
+        <module name="boot-shiro (1)" />
+        <module name="learn-aop" />
         <module name="boot-elasticsearch" />
+        <module name="first-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-elasticsearch" target="1.8" />
+      <module name="boot-jpa" target="1.8" />
       <module name="boot-shiro" target="1.8" />
       <module name="boot-shiro (1)" target="1.8" />
+      <module name="first-boot" target="1.8" />
       <module name="learn-aop" target="1.8" />
       <module name="springTest" target="1.8" />
     </bytecodeTargetLevel>
@@ -24,8 +29,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot-elasticsearch" options="-parameters" />
+      <module name="boot-jpa" options="-parameters" />
       <module name="boot-shiro" options="-parameters" />
       <module name="boot-shiro (1)" options="-parameters" />
+      <module name="first-boot" options="-parameters" />
       <module name="learn-aop" options="-parameters" />
     </option>
   </component>
