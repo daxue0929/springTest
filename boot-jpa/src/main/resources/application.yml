@@ -8,7 +8,7 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: create
       naming:
         physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
     show-sql: true
@@ -19,3 +19,8 @@ logging:
     org:
       hibernate:
         SQL: debug
+
+
+# ddl-auto: create   // 每次启动都会创建新的表
+#           validate
+#           update //每次启动更新表结构
