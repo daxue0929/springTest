@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-jpa" />
-        <module name="springTest" />
         <module name="boot-shiro" />
         <module name="boot-shiro (1)" />
         <module name="learn-aop" />
         <module name="boot-elasticsearch" />
         <module name="first-boot" />
+        <module name="spring-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +23,7 @@
       <module name="boot-shiro (1)" target="1.8" />
       <module name="first-boot" target="1.8" />
       <module name="learn-aop" target="1.8" />
+      <module name="spring-base" target="1.7" />
       <module name="springTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

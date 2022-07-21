@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/boot-elasticsearch/boot-shiro (1).iml" filepath="$PROJECT_DIR$/boot-elasticsearch/boot-shiro (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/first-boot/first-boot.iml" filepath="$PROJECT_DIR$/first-boot/first-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-aop/learn-aop.iml" filepath="$PROJECT_DIR$/learn-aop/learn-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-base/spring-base.iml" filepath="$PROJECT_DIR$/spring-base/spring-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/springTest.iml" filepath="$PROJECT_DIR$/springTest.iml" />
     </modules>
   </component>
